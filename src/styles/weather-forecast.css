@@ -1,0 +1,58 @@
+.weather-forecast-card {
+  border: 1px solid #0E3C0A;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.weather-hour {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.weather-icon img {
+  width: 47px;
+  height: 44px;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.weather-hour,
+.weather-temperature {
+  text-align: center; /* Center temperature and time */
+}
+
+.weather-temperature {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.weather-info {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #000;
+  font-family: Karla;
+  text-align: left;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.value {
+  font-weight: 500;
+}

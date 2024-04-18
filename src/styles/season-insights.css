@@ -1,0 +1,293 @@
+.weather-forecast-card {
+  border: 1px solid #0E3C0A;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.weather-hour {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+
+.weather-icon img {
+  width: 47px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+
+.weather-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-temperature {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.weather-info {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: #000;
+  font-family: Karla;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.value {
+  font-weight: 500;
+}
+
+.weather-precip,
+.weather-wind,
+.weather-humidity {
+  text-align: left;
+}
+
+.season-insights {
+  padding: 20px;
+}
+
+.big-weather-card {
+  margin-bottom: 20px;
+  display: flex; 
+  align-items: center; 
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.big-container .weather-forecast-card {
+  width: 350px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.big-container .weather-icon,
+.big-container .weather-temperature {
+  flex: 1;
+}
+
+.big-container .weather-hour {
+  display: none;
+}
+
+.big-container .weather-icon img {
+  width: 85px;
+  height: 80px;
+}
+
+.big-container .weather-precip,
+.big-container .weather-humidity,
+.big-container .weather-wind {
+  flex-shrink: 0;
+}
+
+.big-container .location {
+  color: #000;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116.667%;
+  margin-top: 10px;
+}
+
+.small-weather-cards {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+.small-weather-card {
+  min-width: 175px;
+  height: 220px;
+}
+
+.weather-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .small-weather-cards {
+      flex-direction: row;
+  }
+
+  .small-weather-card {
+      width: 100%;
+  }
+}
+
+.horizontal-line {
+  border-top: 2px solid #000;
+  margin: 20px 0;
+}
+
+.seasonal_text {
+  color: #000;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116.667%;
+}
+
+.slider-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #4caf50;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #4caf50;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -20px;
+}
+
+.slider-label {
+  flex: 1;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.slider-label:first-child {
+  margin-left: 0;
+}
+
+.slider-label:nth-child(2) {
+  margin-left: -15px;
+}
+
+.slider-label:nth-child(3) {
+  margin-left: -10px;
+}
+
+.slider-label:last-child {
+  margin-right: -30px;
+}
+
+.bold-label {
+  font-weight: bold;
+}
+
+.spring-background {
+  background-color: #E0E1BC;
+}
+
+.summer-background {
+  background-color: #E9EA9E;
+}
+
+.fall-background {
+  background-color: #E1CEBC;
+}
+
+.winter-background {
+  background-color: #BCD8E1;
+}
+
+.plant-card h3 {
+  color: #000;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.plant-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.plant-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plant-details img {
+  width: 150px; /* Adjust as needed */
+  height: 110px; /* Adjust as needed */
+  margin-bottom: 10px;
+  border-radius: 36px; /* Rounded corners */
+  border: 0px solid #89AC66; /* Border color and width */
+  background: #B5D39E; /* Background color */
+}
+
+.plant-details h3 {
+  margin: 0;
+}
+
+.plant-description {
+  width: 205px; /* Adjust as needed */
+  text-align: left;
+  margin-left: 26px;
+}
+
+
+
+.season-insights .background-leaf-left {
+  left: -42px; 
+  position: absolute; /* Position the leaf images */
+  top: 0; /* Align to the top of the container */
+  z-index: 1; /* Display above most other elements */
+}
+
+.season-insights {
+  position: relative; /* Make sure the container is positioned */
+}

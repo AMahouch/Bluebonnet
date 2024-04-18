@@ -1,0 +1,48 @@
+ 
+ @font-face {
+    font-family: 'Karla';
+    src: url('../fonts/Karla-Regular.ttf') format('truetype');
+   
+}
+
+.h1 {
+  font-family: 'Karla', sans-serif; /* Apply Karla font to h1 */
+}
+
+    .plant-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        gap: 20px; 
+    }
+    
+    .plant-image-container {
+    border-radius: 36px;
+    border: 0px solid #89AC66;
+    background: #B5D39E;
+    width: 173px;
+    height: 140px;
+    flex-shrink: 0;
+
+  }
+  
+  .plant-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Plant Details */
+  .plant-name {
+    color: #000;
+    width: 100%; /* Set width to 100% */
+    height: 18px;
+    flex-shrink: 0;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+  }
+  

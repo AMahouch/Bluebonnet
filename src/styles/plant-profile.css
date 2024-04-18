@@ -1,0 +1,202 @@
+
+
+.plant-profile .plant-image {
+  margin: 0 auto; 
+  width: 234px; 
+  height: 228px; 
+  flex-shrink: 0;
+}
+
+.warning-description {
+  text-align: left;
+  width: 337px;
+  color: #000;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 116.667%; /* 18.667px */
+}
+
+.warning h3 {
+  margin-top: -11px;
+  margin-bottom: 14px;
+  text-decoration-line: underline;
+}
+
+.planted-weeks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116.667%; /* 18.667px */
+}
+
+.plant-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Karla;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116.667%; /* 42px */
+}
+
+.warning {
+  width: 363px;
+  height: 122px;
+  margin: 0 auto; 
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #000;
+  background: #F3F567;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: Karla;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116.667%; /* 37.333px */
+}
+
+.description-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Horizontally center the content */
+  flex-shrink: 0;
+}
+
+.description-section p {
+  width: 312px; 
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #000;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116.667%; /* 18.667px */
+}
+
+.description-section h3 {
+  color: #000;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116.667%; /* 28px */
+  margin-top: 29px;
+  margin-right: 218px;
+}
+
+.neighbor-comments h3 {
+  color: #000;
+  font-family: Karla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116.667%; /* 28px */
+  display: flex;
+  width: 100%; 
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 15px;
+  margin-left: 6px;
+  margin-right: 14px;
+  margin-bottom: 15px;
+
+}
+
+.comment {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 20px; 
+}
+
+.comment-details {
+  display: flex;
+  flex-direction: column;
+  width: 294px;
+  flex-shrink: 0;
+}
+.comment-details p {
+  margin: 0; 
+  line-height: 1.2; 
+}
+
+.commenter-name {
+  color: #000;
+  font-family: Karla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 116.667%; /* 23.333px */
+}
+
+
+.comment .icon {
+  margin-right: 6px; 
+  margin-left: 29px;
+}
+.comment-name {
+  width: 326px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.comment-message {
+  width: 294px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.add-comment {
+  width: 351px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #8B8B8B;
+  background: #FFF;
+  margin: 0 auto; 
+  display: flex;
+  align-items: center; 
+  padding: 0 10px; 
+}
+
+.add-comment input {
+  flex: 1; 
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-right: 10px; 
+}
+
+.submit_icon {
+  width: 27px;
+  height: 21px;
+  flex-shrink: 0;
+}
+
+.back_button {
+  margin-left: 18px; 
+  margin-top: 21px; 
+}
+

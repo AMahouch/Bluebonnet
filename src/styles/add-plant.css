@@ -1,0 +1,120 @@
+.requirements {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .water-requirement2,
+  .sun-requirement2 {
+    width: 148px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    background: #B5D39E;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .requirement-icon {
+    width: 20px;
+    margin-left: 30px;
+    margin-right: 15px;
+  }
+  
+  .requirement-text {
+    color: #000;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.667%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 58px;
+  }
+  
+  .sun-requirement2 {
+    margin-right: 0;
+  }
+  
+  .add-plant .neighbor-comments h3 {
+    margin-left:25px;
+  }
+  
+  .add-plant-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .add-plant-button {
+    width: 329px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #0E3C0A;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116.667%;
+    cursor: pointer;
+  }
+  .popup {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 355px;
+    height: 314px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1px solid #000;
+    background: #0E3C0A;
+  }
+  
+  .popup-content {
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116.667%; /* 28px */
+  }
+  
+  .popup-content p {
+    color: #ffffff;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  
+  .popup-content button {
+    display: block;
+    width: 311px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    margin: 10px auto;
+    color: #000;
+    margin-top: 30px;
+
+  }
+  
+  .popup-content button.add {
+    background: #B5D39E;
+  }
+  
+  .popup-content button.cancel {
+    background: #F00;
+  }
+  

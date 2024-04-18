@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Lora';
+  src: url('./fonts/Lora-Bold.ttf') format('truetype');
+ 
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+ 
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, html, #root, .app{
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  background-color: #E0E1BC;
+
+}
+h1{
+  font-family: 'Lora', sans-serif; /* Apply Karla font to h1 */
+}
+
+
+.react-swipeable-view-container{
+  min-height: 100%;
+}
+
+.page{
+  min-height: 100%;
+  width: 100%;
+  padding: 1em;
+}
+
+.dashboard{
+  /* background: #FEA900; */
+}
+
+.plant-profile{
+  /* background: #B3DC4A; */
+}
+
+.season-insights{
+  /* background: #6AC0FF; */
+}
+.plant-search{
+  /* background: #fd5c63 */
+}
+
